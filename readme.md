@@ -129,4 +129,4 @@ Delete with Namespace | ```kubectl delete ingress <ingress-name> -n <namespace>`
 - https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/
 - https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html
 - https://www.udemy.com/course/certified-kubernetes-application-developer
-
+- Note: Here' the published link for the slide: https://docs.google.com/presentation/d/e/2PACX-1vTqqAJVakVOvop8iwGWx82O4LXxpSR5q80MuuShA9uxzsffezAK8GsvEWfXoHK1PlMaMMknWkkyDg_q/pub?start=false&loop=false&delayms=3000
