@@ -8,7 +8,7 @@ spec:
     - host: electronics.example.com
       http:
         paths:
-          - path: /
+          - path: /electronics
             pathType: Prefix
             backend:
               service:
@@ -18,7 +18,7 @@ spec:
     - host: clothing.example.com
       http:
         paths:
-          - path: /
+          - path: /clothing
             pathType: Prefix
             backend:
               service:
@@ -28,7 +28,7 @@ spec:
     - host: groceries.example.com
       http:
         paths:
-          - path: /
+          - path: /groceries
             pathType: Prefix
             backend:
               service:
