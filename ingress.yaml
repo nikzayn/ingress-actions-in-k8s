@@ -1,0 +1,37 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: shopping-mall-ingress
+  namespace: shopping-mall
+spec:
+  rules:
+    - host: electronics.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: electronics-app
+                port:
+                  number: 8080
+    - host: clothing.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: clothing-app
+                port:
+                  number: 8080
+    - host: groceries.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: groceries-app
+                port:
+                  number: 8080
